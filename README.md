@@ -1,207 +1,62 @@
-# 🖥️ Operating Systems Course
+# 🖥️ Operating Systems Course Outline
 
-Welcome to the **Operating Systems** course offered by the **Department of Information and Communication Engineering** at the **Institute of Technology of Cambodia**.
+**Instructor**: Heng Rathpisey  
+**Department**: Information and Communication Engineering  
+**Institute**: Institute of Technology of Cambodia  
 
-👨‍🏫 **Instructor**: Heng Rathpisey  
-📘 **Goal**: Understand how modern operating systems manage hardware and software resources, ensure stability, security, and provide efficient services to users and applications.
-
----
-
-## 🎯 Course Learning Objectives
-
-By the end of this course, you should be able to:
-
-- Understand core concepts and architecture of operating systems.
-- Explain how operating systems manage processes, memory, and file systems.
-- Analyze and evaluate resource management and scheduling techniques.
-- Discuss system stability, concurrency, and protection mechanisms in modern OSes.
-- Apply theoretical knowledge through simulations and hands-on exercises.
+This course provides a comprehensive understanding of how operating systems function, focusing on their architecture, resource management, concurrency, scheduling, and memory handling.
 
 ---
 
-## 📅 Weekly Course Outline
+## 📘 Course Learning Objectives
 
-### Week 1: Introduction to Operating Systems
-**Topics**:
-- What is an OS?
-- Components of a Computer System
-- Computer-System Operations
-- Von Neumann Architecture
-- Bootstrap, Dual-mode, Timers
+By the end of the course, students will be able to:
 
-**Objectives**:
-- Describe OS goals and components
-- Explain interrupt handling and execution flow
-- Illustrate bootstrap program and mode transitions
+- Understand the architecture and core functions of operating systems.
+- Analyze process management, memory allocation, and file systems.
+- Compare and apply scheduling and resource management algorithms.
+- Solve synchronization and concurrency problems.
+- Understand real-world implementations in Linux, Windows, and macOS.
 
 ---
 
-### Week 2: OS Structures and Interfaces
-**Topics**:
-- OS Services
-- System Calls
-- OS Structures (Monolithic, Layered, Microkernel)
-- Debugging and Performance Tools
+## 📅 Weekly Topics and Learning Objectives
 
-**Objectives**:
-- Explain services and interfaces of OS
-- Compare structural designs in Windows, Linux, macOS
-- Understand system calls and performance monitoring
-
----
-
-### Week 3: Processes
-**Topics**:
-- Process Concept and Lifecycle
-- Process Control Block (PCB)
-- Context Switching
-- Scheduling Queues
-
-**Objectives**:
-- Define a process and describe states
-- Explain PCB and how OS manages processes
-- Understand process creation and termination
+| Week | Topic | Learning Objectives | Resources |
+|------|-------|----------------------|-----------|
+| **1** | Introduction to OS | - Understand OS roles, components, and Von Neumann architecture<br>- Describe interrupts, dual-mode, bootstrap | [Slides](link_to_slides) • [Reading](link_to_reading) |
+| **2** | OS Structures & Interfaces | - Explain services and system calls<br>- Compare OS structures (monolithic, layered, microkernel) | [Slides](link_to_slides) • [Code](link_to_code) |
+| **3** | Processes | - Define process, PCB, context switch<br>- Understand process states and transitions | [Slides](link_to_slides) • [Demo](link_to_demo) |
+| **4** | Threads & Multicore | - Distinguish threads vs. processes<br>- Analyze threading models and concurrency | [Slides](link_to_slides) • [Video](link_to_video) |
+| **5** | CPU Scheduling I | - Evaluate scheduling metrics<br>- Apply FCFS and SJF algorithms | [Slides](link_to_slides) • [Practice Sheet](link_to_sheet) |
+| **6** | CPU Scheduling II | - Understand Round Robin, Priority, MLQ, MLFQ<br>- Handle starvation and aging | [Slides](link_to_slides) • [Simulator](link_to_tool) |
+| **7** | Critical Sections | - Solve critical section problems<br>- Use mutexes and locks | [Slides](link_to_slides) • [Code Lab](link_to_lab) |
+| **8** | Semaphores & Sync Problems | - Apply semaphores<br>- Solve Dining Philosophers, Readers-Writers, Producer-Consumer | [Slides](link_to_slides) • [Code](link_to_code) |
+| **9** | Deadlocks | - Identify deadlock conditions<br>- Use Banker's algorithm and detection/prevention methods | [Slides](link_to_slides) • [Exercise](link_to_exercise) |
+| **10** | Memory Management I | - Explain memory abstraction, binding<br>- Understand paging, swapping, fragmentation | [Slides](link_to_slides) • [Reading](link_to_reading) |
+| **11** | Virtual Memory | - Describe demand paging, TLB<br>- Apply page replacement (FIFO, LRU, Optimal) | [Slides](link_to_slides) • [Quiz](link_to_quiz) |
+| **12** | File Systems | - Explain structure and access methods<br>- Analyze security (ACLs, encryption) | [Slides](link_to_slides) • [Assignment](link_to_assignment) |
 
 ---
 
-### Week 4: Threads & Multicore Programming
-**Topics**:
-- Threads vs. Processes
-- User-level, Kernel-level, and Hybrid Threads
-- Multithreading Benefits and Challenges
-- Concurrency and Parallelism
+## ✅ Student Checklist
 
-**Objectives**:
-- Differentiate between threads and processes
-- Explain threading models
-- Analyze multicore execution challenges
-
----
-
-### Week 5: CPU Scheduling Basics
-**Topics**:
-- CPU Scheduling Purpose
-- Preemptive vs Non-Preemptive
-- Scheduling Criteria (CPU Utilization, Throughput, etc.)
-- FCFS, SJF Algorithms
-
-**Objectives**:
-- Evaluate scheduling metrics
-- Apply FCFS and SJF
-- Compare scheduling types
+| Week | Covered | Notes |
+|------|---------|-------|
+| 1 | ☐ | |
+| 2 | ☐ | |
+| 3 | ☐ | |
+| 4 | ☐ | |
+| 5 | ☐ | |
+| 6 | ☐ | |
+| 7 | ☐ | |
+| 8 | ☐ | |
+| 9 | ☐ | |
+| 10 | ☐ | |
+| 11 | ☐ | |
+| 12 | ☐ | |
 
 ---
 
-### Week 6: Advanced CPU Scheduling
-**Topics**:
-- Round Robin
-- Priority Scheduling (Static, Dynamic)
-- Multilevel Queue Scheduling
-- Multilevel Feedback Queue
+## 📂 Repository Structure Suggestion
 
-**Objectives**:
-- Understand time quantum in RR
-- Address priority inversion and aging
-- Analyze advanced multi-level schedulers
-
----
-
-### Week 7: Synchronization & Critical Sections
-**Topics**:
-- Critical Section Problem
-- Mutual Exclusion, Progress, Bounded Waiting
-- Mutexes and Locks
-- Race Conditions and Deadlocks
-
-**Objectives**:
-- Describe and solve the critical section problem
-- Use synchronization primitives
-- Identify concurrency issues
-
----
-
-### Week 8: Semaphores & Classical Problems
-**Topics**:
-- Semaphores (Binary & Counting)
-- Dining Philosophers
-- Readers-Writers
-- Producer-Consumer Problems
-
-**Objectives**:
-- Apply semaphores in real-world problems
-- Solve classical synchronization challenges
-
----
-
-### Week 9: Deadlocks
-**Topics**:
-- Necessary Conditions for Deadlocks
-- Detection and Recovery
-- Prevention and Avoidance
-- Resource Allocation Graphs, Banker's Algorithm
-
-**Objectives**:
-- Identify deadlock conditions
-- Apply prevention and detection techniques
-
----
-
-### Week 10: Memory Management I
-**Topics**:
-- Memory Abstraction
-- Address Binding
-- Contiguous Allocation
-- Fragmentation and Compaction
-- Paging and Swapping
-
-**Objectives**:
-- Explain address space concepts
-- Compare allocation techniques
-- Understand paging and memory protection
-
----
-
-### Week 11: Virtual Memory & Page Replacement
-**Topics**:
-- Demand Paging and Page Tables
-- Page Replacement (FIFO, LRU, Optimal)
-- Thrashing
-
-**Objectives**:
-- Understand virtual memory
-- Evaluate page replacement strategies
-- Analyze and mitigate thrashing
-
----
-
-### Week 12: File Systems
-**Topics**:
-- File and Directory Structures
-- Access Methods (Sequential, Direct, Indexed)
-- File Protection and Security (ACLs, Permissions, Encryption)
-
-**Objectives**:
-- Explain file system organization
-- Compare access methods
-- Analyze protection mechanisms
-
----
-
-## ✅ Self-Assessment Checklist
-
-Use this checklist to track your learning:
-
-- [ ] I can explain how an OS interacts with hardware and users.
-- [ ] I understand different OS structures and their trade-offs.
-- [ ] I can describe and manage process states and threads.
-- [ ] I can apply and compare CPU scheduling algorithms.
-- [ ] I understand synchronization tools and classical problems.
-- [ ] I can prevent, detect, and resolve deadlocks.
-- [ ] I understand how memory is managed through paging and virtual memory.
-- [ ] I can explain how file systems organize, access, and secure data.
-
----
-
-Feel free to fork this repository and add your own notes or solutions as we progress through the course.
-
-Happy learning! 🚀
