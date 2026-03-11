@@ -20,9 +20,6 @@ By the end of the course, students will be able to:
 
 ---
 
-<img width="1662" height="769" alt="image" src="https://github.com/user-attachments/assets/7d77a602-4480-4352-955d-ee0e9711a96b" />
-
-
 ## 📅 Weekly Topics and Learning Objectives
 
 | Week | Topic | Learning Objectives | Resources |
